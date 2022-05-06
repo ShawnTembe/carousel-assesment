@@ -1,0 +1,46 @@
+
+.main-container{
+    background-color: pink;
+    padding-left: 30px;
+   padding-right: 30px;
+    width:100%;
+    .wrapper{
+        background-color: #dff3f5;
+        background-image: linear-gradient(to right, #f0feff 88px, transparent 1px);
+        background-size: 100px;
+        width: 100%;
+        .carousel{
+            width: 100%;
+    
+            .heading{
+                position: relative;
+                left: 20%;
+                padding-top: 70px;
+                height: 80px;
+                width: 200px;
+                color: #232323;
+                font-size: 32px;
+                letter-spacing: -0.2px;
+                line-height: 40px;
+                
+                span{
+                    font-weight: 700;
+                }
+            }
+
+            
+        }
+    }
+
+}
+.main-container {
+    @media screen and (max-width: 768px) {
+      padding: 0px;
+
+      .heading {
+        padding-top: 30px !important;
+      }
+    }
+  }
+  
+
